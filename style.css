@@ -1,0 +1,72 @@
+body{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://wallsdesk.com/wp-content/uploads/2016/11/Spring-Photos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    height: 600px;
+    left:0px;
+}
+
+.header{
+    height: 140px;
+    width: 100%;
+    background-image: url("https://wallpapercave.com/wp/Y2vQELG.jpg");
+    background-size: 300px;
+    background-repeat: repeat;
+    border-bottom: 2px solid #fff;
+    padding-top: 50px;
+    font-size: 100px;
+    color:#fff;
+}
+
+.btn{
+    position: relative;
+    top:45px;
+    right: 20px;
+}
+
+button{
+    color:black;
+    height: 35px;
+    width: 100px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+#data{
+    width:99%;
+    height: 450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+
+.table
+{
+    width:800px;
+}
+
+table{
+    color:brown;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font: 700;
+}
+table tr:hover{
+    background-color: lightgray;
+}
+
+img{
+    clip-path:circle()
+}
+
+.welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding-top: 120px;
+}
